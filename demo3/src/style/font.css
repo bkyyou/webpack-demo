@@ -1,0 +1,8 @@
+@font-face {
+  src: url("../font/") format('truetype'),
+  font-family: "HabanoST"
+}
+
+.my_font {
+  font-family: "HabanoST";
+}

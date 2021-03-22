@@ -1,7 +1,14 @@
 // postcss.config.js
 
 module.exports = {
- plugins: [require('autoprefixer')] 
+ plugins: [require('autoprefixer')({
+  //  browsers: [
+  //   'ie >= 8',
+  //   'Firefox >= 3.5',
+  //   'chrome  >= 35',
+  //   'opera >= 11.5'
+  //  ]
+ })] 
 }
 
 // module.exports = {

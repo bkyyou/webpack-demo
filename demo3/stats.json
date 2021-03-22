@@ -1,0 +1,1668 @@
+entryFIles [
+  './src/entries/index.js',
+  './src/entries/login.js',
+  './src/entries/register.js'
+]
+cli
+Webpack Bundle Analyzer saved stats file to /Users/koolearn/Desktop/program/webpack-demo/demo3/dist/stats.json
+{
+  "hash": "5aacf5d8e3c95d031489",
+  "version": "5.24.4",
+  "time": 554,
+  "builtAt": 1616122818249,
+  "publicPath": "auto",
+  "outputPath": "/Users/koolearn/Desktop/program/webpack-demo/demo3/dist",
+  "assetsByChunkName": {
+    "index": [
+      "index.js"
+    ],
+    "login": [
+      "login.js"
+    ],
+    "register": [
+      "register.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "register.js",
+      "size": 1297,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1297
+      },
+      "chunkNames": [
+        "register"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "register"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.js",
+      "size": 1276,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1276
+      },
+      "chunkNames": [
+        "index"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "index"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "login.js",
+      "size": 1276,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1276
+      },
+      "chunkNames": [
+        "login"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "login"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "register.html",
+      "size": 247,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 247
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 241,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 241
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "login.html",
+      "size": 241,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 241
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "assets/design.doc",
+      "size": 0,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/design.doc",
+        "size": 0
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "assets/home.psd",
+      "size": 0,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/home.psd",
+        "size": 0
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 24,
+      "sizes": {
+        "javascript": 24
+      },
+      "names": [
+        "index"
+      ],
+      "idHints": [],
+      "runtime": [
+        "index"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "27974c59d4634b18f1b4",
+      "childrenByOrder": {},
+      "id": "index",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/entries/index.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 24,
+      "sizes": {
+        "javascript": 24
+      },
+      "names": [
+        "login"
+      ],
+      "idHints": [],
+      "runtime": [
+        "login"
+      ],
+      "files": [
+        "login.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "1d03c24faa77fb479fe9",
+      "childrenByOrder": {},
+      "id": "login",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "login",
+          "request": "./src/entries/login.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 27,
+      "sizes": {
+        "javascript": 27
+      },
+      "names": [
+        "register"
+      ],
+      "idHints": [],
+      "runtime": [
+        "register"
+      ],
+      "files": [
+        "register.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "17c1eb074f68f8e7d258",
+      "childrenByOrder": {},
+      "id": "register",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "register",
+          "request": "./src/entries/register.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 24,
+      "sizes": {
+        "javascript": 24
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_babel-loader@8.2.2@babel-loader/lib/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/entries/index.js",
+      "name": "./src/entries/index.js",
+      "nameForCondition": "/Users/koolearn/Desktop/program/webpack-demo/demo3/src/entries/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 433,
+        "resolving": 56,
+        "restoring": 0,
+        "building": 377,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 56,
+        "dependencies": 0
+      },
+      "id": "./src/entries/index.js",
+      "issuerId": null,
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entries/index.js",
+          "loc": "index",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 24,
+      "sizes": {
+        "javascript": 24
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_babel-loader@8.2.2@babel-loader/lib/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/entries/login.js",
+      "name": "./src/entries/login.js",
+      "nameForCondition": "/Users/koolearn/Desktop/program/webpack-demo/demo3/src/entries/login.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 475,
+        "resolving": 43,
+        "restoring": 0,
+        "building": 432,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 43,
+        "dependencies": 0
+      },
+      "id": "./src/entries/login.js",
+      "issuerId": null,
+      "chunks": [
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entries/login.js",
+          "loc": "login",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 27,
+      "sizes": {
+        "javascript": 27
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_babel-loader@8.2.2@babel-loader/lib/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/entries/register.js",
+      "name": "./src/entries/register.js",
+      "nameForCondition": "/Users/koolearn/Desktop/program/webpack-demo/demo3/src/entries/register.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 419,
+        "resolving": 42,
+        "restoring": 0,
+        "building": 377,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 42,
+        "dependencies": 0
+      },
+      "id": "./src/entries/register.js",
+      "issuerId": null,
+      "chunks": [
+        "register"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entries/register.js",
+          "loc": "register",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    }
+  ],
+  "entrypoints": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        "index"
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 1276
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1276,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "login": {
+      "name": "login",
+      "chunks": [
+        "login"
+      ],
+      "assets": [
+        {
+          "name": "login.js",
+          "size": 1276
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1276,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "register": {
+      "name": "register",
+      "chunks": [
+        "register"
+      ],
+      "assets": [
+        {
+          "name": "register.js",
+          "size": 1297
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1297,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "name": "index",
+      "chunks": [
+        "index"
+      ],
+      "assets": [
+        {
+          "name": "index.js",
+          "size": 1276
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1276,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "login": {
+      "name": "login",
+      "chunks": [
+        "login"
+      ],
+      "assets": [
+        {
+          "name": "login.js",
+          "size": 1276
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1276,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "register": {
+      "name": "register",
+      "chunks": [
+        "register"
+      ],
+      "assets": [
+        {
+          "name": "register.js",
+          "size": 1297
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1297,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "23ec5a852e91443a053f",
+      "version": "5.24.4",
+      "time": 444,
+      "builtAt": 1616122818161,
+      "publicPath": "",
+      "outputPath": "/Users/koolearn/Desktop/program/webpack-demo/demo3/dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1017,
+          "sizes": {
+            "javascript": 307,
+            "runtime": 710
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "c8b28e6ed22714bdc7a7",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_0-0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        },
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1017,
+          "sizes": {
+            "javascript": 307,
+            "runtime": 710
+          },
+          "names": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "1e17e410092116db7a08",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_1-0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_1-0",
+              "request": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/login.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_1-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        },
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1020,
+          "sizes": {
+            "javascript": 310,
+            "runtime": 710
+          },
+          "names": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "2260c8682e1b26e7f891",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_2-0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_2-0",
+              "request": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/register.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_2-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 14,
+            "resolving": 6,
+            "restoring": 0,
+            "building": 8,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 6,
+            "dependencies": 0
+          },
+          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0",
+            "HtmlWebpackPlugin_1-0",
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_1-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_2-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 230,
+          "sizes": {
+            "javascript": 230
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/index.html",
+          "name": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "nameForCondition": "/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/index.html",
+              "module": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/index.html",
+              "resolvedModule": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:0-14",
+              "moduleId": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleId": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/index.html"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/index.html",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:0-14"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 230,
+          "sizes": {
+            "javascript": 230
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/login.html",
+          "name": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/login.html",
+          "nameForCondition": "/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/login.html",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/login.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/login.html",
+              "module": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/login.html",
+              "moduleName": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/login.html",
+              "resolvedModuleIdentifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/login.html",
+              "resolvedModule": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/login.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:0-14",
+              "moduleId": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/login.html",
+              "resolvedModuleId": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/login.html"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/login.html",
+              "loc": "HtmlWebpackPlugin_1-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:0-14"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 233,
+          "sizes": {
+            "javascript": 233
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/register.html",
+          "name": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/register.html",
+          "nameForCondition": "/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/register.html",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/register.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/register.html",
+              "module": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/register.html",
+              "moduleName": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/register.html",
+              "resolvedModuleIdentifier": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-withimg-loader@0.1.16@html-withimg-loader/index.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/register.html",
+              "resolvedModule": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/register.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:0-14",
+              "moduleId": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/register.html",
+              "resolvedModuleId": "./node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!./src/pages/register.html"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/koolearn/Desktop/program/webpack-demo/demo3/node_modules/_html-webpack-plugin@5.3.0@html-webpack-plugin/lib/loader.js!/Users/koolearn/Desktop/program/webpack-demo/demo3/src/pages/register.html",
+              "loc": "HtmlWebpackPlugin_2-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:0-14"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 321,
+          "sizes": {
+            "runtime": 321
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 321,
+          "sizes": {
+            "runtime": 321
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 321,
+          "sizes": {
+            "runtime": 321
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        },
+        "HtmlWebpackPlugin_1-0": {
+          "name": "HtmlWebpackPlugin_1-0",
+          "chunks": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        },
+        "HtmlWebpackPlugin_2-0": {
+          "name": "HtmlWebpackPlugin_2-0",
+          "chunks": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        },
+        "HtmlWebpackPlugin_1-0": {
+          "name": "HtmlWebpackPlugin_1-0",
+          "chunks": [
+            "HtmlWebpackPlugin_1-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        },
+        "HtmlWebpackPlugin_2-0": {
+          "name": "HtmlWebpackPlugin_2-0",
+          "chunks": [
+            "HtmlWebpackPlugin_2-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}

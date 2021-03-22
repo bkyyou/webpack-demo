@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://demo3/./src/entries/register.js"],"names":["console","log"],"mappings":";;;;;AAAAA,OAAO,CAACC,GAAR,CAAY,aAAZ,E","file":"register.js","sourcesContent":["console.log('register.js');\n"],"sourceRoot":""}
