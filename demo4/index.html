@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script>
+    let docEle = document.documentElement;
+    function setRemUnit() {
+      docEle.style.fontSize = docEle.clientWidth / 10 + 'px';
+    }
+    setRemUnit();
+    window.addEventListener('resize', setRemUnit)
+  </script>
 </head>
 <body>
   <div>1111222333</div>
