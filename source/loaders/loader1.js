@@ -27,7 +27,7 @@ module.exports = loader;
  * 打印
  * pitch1
  * pitch2
- * pitch3
+ * pitch3 // 有返回结果
  * loader2
  * loader1
  * 

@@ -1,0 +1,9 @@
+@import './base.css';
+
+
+.avator {
+  width: 200px;
+  height: 200px;
+  background-image: url('../imgs/avator.png');
+  background-size: 100% 100%;
+}

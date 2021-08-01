@@ -4,7 +4,7 @@
 // console.log('module.hot', module.hot);
 
 console.log('process.env.NODE_ENV', process.env.NODE_ENV);
-
+import '../utils/tools/test.js';
 
 import './index.css';
 import './index1.css';

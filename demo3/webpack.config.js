@@ -90,8 +90,8 @@ module.exports = (env, argv) => ({
   //   common: './src/common.js'
   // },
   devtool: env == 'production' ? false : 'source-map', // source-map eval cheap-source-map cheap-module-source-map
-  // entry: './src/index.js',
-  entry,
+  entry: './src/index.js',
+  // entry,
   // entry: {
   //   index: './src/index.js',
   //   login: './src/login.js',
@@ -163,39 +163,39 @@ module.exports = (env, argv) => ({
       // },
       {
         test: /\.js$/,
-        // use: 'babel-loader', // options 中的内容写在 .babelrc 后者 babel.config.js 文件中
+        use: ['babel-loader', 'delete-code'], // options 中的内容写在 .babelrc 后者 babel.config.js 文件中
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          // options: {
-          //   "presets": [
-          //     [ 
-          //       "@babel/preset-env", 
-          //       {
-          //         "useBuiltIns": "usage", // 按需引入 @babel/polyfill
-          //         "corejs": 3
-          //       }
-          //     ],
-          //     // "@babel/preset-env",
-          //     "@babel/preset-react"
-          //   ],
-          //   "plugins": [
-          //     // legacy 兼容旧的模式
-          //     ["@babel/plugin-proposal-decorators", {legacy: true}],
-          //     // loose 松散模式 
-          //     ["@babel/plugin-proposal-class-properties", {loose: true}],
-          //     [
-          //       "@babel/plugin-transform-runtime", // 这个是依赖 @babel/runtime 
-          //       {
-          //         "corejs": false,
-          //         "helpers": true,
-          //         "regenerator": true,
-          //         "useESModules": true
-          //       }
-          //     ]
-          //   ]
-          // }
-        }
+        // use: {
+        //   loader: 'babel-loader',
+        //   // options: {
+        //   //   "presets": [
+        //   //     [ 
+        //   //       "@babel/preset-env", 
+        //   //       {
+        //   //         "useBuiltIns": "usage", // 按需引入 @babel/polyfill
+        //   //         "corejs": 3
+        //   //       }
+        //   //     ],
+        //   //     // "@babel/preset-env",
+        //   //     "@babel/preset-react"
+        //   //   ],
+        //   //   "plugins": [
+        //   //     // legacy 兼容旧的模式
+        //   //     ["@babel/plugin-proposal-decorators", {legacy: true}],
+        //   //     // loose 松散模式 
+        //   //     ["@babel/plugin-proposal-class-properties", {loose: true}],
+        //   //     [
+        //   //       "@babel/plugin-transform-runtime", // 这个是依赖 @babel/runtime 
+        //   //       {
+        //   //         "corejs": false,
+        //   //         "helpers": true,
+        //   //         "regenerator": true,
+        //   //         "useESModules": true
+        //   //       }
+        //   //     ]
+        //   //   ]
+        //   // }
+        // }
       },
       {
         test: /\.css$/,
