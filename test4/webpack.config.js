@@ -7,12 +7,15 @@ module.exports = {
   mode: "development",
   entry: './src/foo.js',
   output: {
-    // filename: 'foo',
+    filename: '[name].js',
     publicPath: '/dist/',
   },
+  // externals: {
+  //   react: 'React'
+  // },
   optimization: {
     splitChunks: {
-      chunks: 'all',
+      chunks: 'async',
     }
   },
   plugins: [
