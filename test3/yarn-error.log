@@ -1,21 +1,21 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn
+  /Users/j/.nvm/versions/node/v14.21.2/bin/node /usr/local/bin/yarn add webpack-dev-server
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  /Users/j/.nvm/versions/node/v14.21.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/j/.nvm/versions/node/v14.21.2/bin
 
 Yarn version: 
   1.22.15
 
 Node version: 
-  16.14.0
+  14.21.2
 
 Platform: 
   darwin x64
 
 Trace: 
   Error: getaddrinfo ENOTFOUND registry.ygego.prod
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
 
 npm manifest: 
   {
@@ -24,6 +24,7 @@ npm manifest:
     "main": "index.js",
     "license": "MIT",
     "scripts": {
+      "dev": "webpack-dev-server dev",
       "build": "webpack"
     },
     "dependencies": {

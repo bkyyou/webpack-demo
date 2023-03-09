@@ -10,9 +10,55 @@
 <body>
   <div>这是一句话</div>
   <script>
-    let script = document.createElement('script');
-    script.src = 'https://icprs.koolearn.com/static/common/axios@0.18.0/axios.min.js';
-    document.body.appendChild(script);
+    // let script = document.createElement('script');
+    // script.src = 'https://icprs.koolearn.com/static/common/axios@0.18.0/axios.min.js';
+    // document.body.appendChild(script);
+    // const obj = {a: 2};
+    // console.log()
+
+    // s = '()'
+    // const reg = /^(1)1$/g;
+    // const a = s.match(reg);
+    // console.log(a, RegExp.$1)
+    
+    // console.log(reg.test(s), RegExp.$1)
+
+    /**
+ * @param {number} n
+ * @return {string[]}
+ */
+var generateParenthesis = function(n) {
+    const list = []
+    debugger
+    backtracking(n, list, 0, 0, "");
+    return list;
+};
+
+
+function backtracking(n, result, left, right, str) {
+    // 右边括号数量大于左边，表示无效括号组合
+    if (right > left) {
+        return;
+    }
+    // 左右两边括号数量相等
+    if (left == n && right == n) {
+        result.push(str);
+        return;
+    }
+    console.log('str', str)
+    // 左边少了，则左边 + 1
+    if (left < n) {
+        backtracking(n, result, left+1, right, str+"(");
+    }
+    // 右边少了，则右边 + 1
+    if (right < left) {
+        backtracking(n, result, left, right+1, str+")");
+    }
+}
+
+generateParenthesis(2)
+
+// 1
   </script>
 </body>
 
