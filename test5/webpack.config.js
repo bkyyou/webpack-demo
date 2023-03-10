@@ -2,6 +2,8 @@ const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPplugin = require("html-webpack-plugin");
 const Clean = require("./plugin/clean");
+const testPlugin = require('./plugin/testPlugin.js');
+
 
 module.exports = {
   mode: "development",
@@ -9,7 +11,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     // filename: "foo.js",
-    filename: "index.js",
+    filename: "[name].[chunkhash].js", // contenthash
     // publicPath: path.join(__dirname, './dist/'),
   },
   // optimization: {
@@ -34,5 +36,6 @@ module.exports = {
       //定义打包的js文件引入在新html的哪个标签里
       inject: "body",
     }),
+    new testPlugin(),
   ],
 };
