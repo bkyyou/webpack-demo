@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // 默认一系列配置都是 false， strict 是一系列配置的集合
+    "strict": false,
+    // 一系列严格检查的集合， 设置为 true ， undefined not 不能随便赋值给任何类型
+    "strictNullChecks": false,
+    "jsx": "preserve", // 指定 jsx 代码用于 的开发类型
+    // "module": "ES6",
+    // "target": "ES5",
+    // "esModuleInterop": true
+  },
+  // "files": [],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "./app.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  // "extends": "",
+  "typeAcquisition": {}
+}
