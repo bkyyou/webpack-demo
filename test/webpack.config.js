@@ -7,7 +7,7 @@ module.exports = {
   mode: "development",
   entry: "./index.js",
   output: {
-    filename: "[name].js",
+    filename: "[name][chunkhash].js",
     path: path.resolve(__dirname, "dist"),
   },
   optimization: {
@@ -25,7 +25,7 @@ module.exports = {
       // 表示拆分出的chunk的名称连接符。默认为~。如chunk~vendors.js
       automaticNameDelimiter: "~",
       // 设置chunk的文件名。默认为true。当为true时，splitChunks基于chunk和cacheGroups的key自动命名。
-      name: false,
+      // name: false,
       /*  
         cacheGroups 下可以可以配置多个组，每个组根据test设置条件，
         符合test条件的模块，就分配到该组。模块可以被多个组引用，
@@ -33,18 +33,19 @@ module.exports = {
         默认将所有来自 node_modules目录的模块打包至vendors组，
         将两个以上的chunk所共享的模块打包至default组。
       */
-      cacheGroups: {
-        vendors: {
-          test: /[\\/]node_modules[\\/]/,
-          priority: -10,
-        },
-        //
-        default: {
-          minChunks: 2,
-          priority: -20,
-          reuseExistingChunk: true,
-        },
-      },
+      // cacheGroups: {
+      //   vendors: {
+      //     test: /[\\/]node_modules[\\/]/,
+      //     priority: -10,
+      //   },
+      //   //
+      //   dll: {
+      //     test: /[\\/]node_modules[\\/]/,
+      //     // minChunks: 2,
+      //     priority: -9,
+      //     // reuseExistingChunk: true,
+      //   },
+      // },
     },
   },
   module: {
