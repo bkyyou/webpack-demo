@@ -23,15 +23,15 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: [
-              [
-                '@babel/preset-env',
-                // {
-                //   // target: {
-                //   // }
-                //   "useBuiltIns": 'usage',
-                //   "corejs": 2
-                // }
-              ]
+              // [
+              //   '@babel/preset-env',
+              //   // {
+              //   //   // target: {
+              //   //   // }
+              //   //   "useBuiltIns": 'usage',
+              //   //   "corejs": 2
+              //   // }
+              // ]
             ],
             "plugins": [
               [

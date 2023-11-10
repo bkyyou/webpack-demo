@@ -9,6 +9,11 @@ const a = 1;
 
 let b = a + a;
 
+const obj = {key1: 1, key2:2}
+const {key1, key2} = obj
+console.log(key1);
+console.log(key2);
+
 // new Promise(resolve => {
 //   resolve()
 // }).then(res => {})
